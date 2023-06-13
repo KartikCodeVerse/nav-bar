@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    background-color: rgb(255, 255, 255);
+  }
+ 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .items a:link {
+    text-decoration: none;
+    color: rgb(81, 31, 31);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .items a:hover {
+    color: red;
+  }
